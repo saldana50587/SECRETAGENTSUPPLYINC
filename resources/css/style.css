@@ -1,0 +1,328 @@
+html,
+body {
+	
+	font-size: 18px;
+	
+	}
+	
+	
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+	.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+
+
+.main-banner {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+
+
+.company {
+    background-color: black;
+    color: white;
+}
+
+.company .container {
+    display: flex;
+    align-items: center;
+    padding: 0.66rem 0 0.66rem 1rem;
+}
+
+.company img {
+    height: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    width: 20rem;
+    padding: 2rem 3rem;
+    position: relative;
+    top: 9rem;
+}
+
+.headline h1{
+	
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: bold;
+	
+}
+
+.headline h4{
+	
+	font-family: helvetica;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+nav {
+	
+	background: firebrick;
+	color: white;
+}
+
+
+
+nav ul{
+	
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	
+	
+}
+
+.product {
+    width: 30%;
+}
+
+
+
+.product-image {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2rem 0px;
+}
+
+.product-image img {
+    max-width: 8rem;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+}
+
+
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+}
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5rem 0;
+    margin-top: 4rem;
+}
+
+
+.mobile-nav{
+		
+		
+		display: none;
+		
+	} 
+
+
+
+/*.mobile-nav{
+		
+		display: none;
+	} */
+
+@media only screen and (max-width: 1024px) {
+	
+	
+	html,
+body {
+	
+	font-size: 16px;
+	
+	}
+	
+	
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+	.product {
+		
+     width: 47%;
+     justify-content: space-between;
+
+}
+
+
+.product-image {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2rem 0px;
+}
+
+#desktop-menu{
+	
+	display: none;
+	
+    	
+	
+}
+
+.mobile-nav{
+		
+		color: white;
+		display: flex;
+		justify-content: center;
+	} 
+	
+	.glasses {
+		
+		display: none;
+		
+	}
+	
+	/*.product-image {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2rem 0px;
+    width: 47%;
+}
+
+
+
+
+.product-image img {
+    max-width: 47%;
+}
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    width: 47%;
+}
+
+*/
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.main-banner {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    width: 20rem;
+    padding: 2rem 3rem;
+    position: relative;
+    top: 10rem;
+}
+
+
+
+.headline h1{
+	
+	font-family: Helvetica;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-left: 2rem;
+	
+}
+
+.headline h4{
+	
+	font-family: helvetica;
+	font-size: 0.77rem;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.product {
+		
+     width: 90%;
+     
+     
+
+}
+
+.products, .business-info {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 0 0;
+    
+    /* align-items: center; */
+}
+
+.business-info{
+	
+	flex-direction: column;
+	
+	
+}
+
+
+.watch {
+		
+		display: none;
+		
+	}
+	
+	footer {
+		
+		text-align: center;
+		
+	}
+
+
+
+}
